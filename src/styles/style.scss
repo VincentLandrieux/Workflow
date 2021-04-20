@@ -1,0 +1,34 @@
+// IMPORT //
+@import './general/font.css';
+
+
+// VARIABLE //
+// Color
+$dark: #222;
+$white: #eee;
+
+// Size
+$size-medium: 16px;
+
+
+// GENERAL //
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: $white;
+    font-family: "Montserrat";
+    font-size: $size-medium;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $dark;
+}
